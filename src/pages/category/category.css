@@ -1,0 +1,158 @@
+.category {
+  flex: 4;
+  padding: 20px;
+}
+
+.categoryTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.categoryAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.categoryAddButton:hover{
+  background-color: rgb(0, 72, 72);
+}
+
+.categoryTop {
+  display: flex;
+}
+
+.categoryTopLeft,
+.categoryTopRight {
+  flex: 1;
+}
+
+.categoryTopRight {
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.categoryInfoImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.categoryInfoTop {
+  display: flex;
+  align-items: center;
+}
+
+.categoryName {
+  font-weight: 600;
+}
+
+.categoryInfoBottom {
+  margin-top: 10px;
+}
+
+.categoryInfoItem {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.categoryInfoValue {
+  font-weight: 300;
+}
+
+.categoryBottom {
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.categoryForm {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.categoryFormLeft {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  
+  @media (max-width: 600px) {
+    width: 200px;
+  }
+}
+
+.categoryFormLeft > label {
+  margin-top: 10px;
+  color: gray;
+  font-weight: 600;
+}
+
+.categoryFormLeft > input {
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+}
+
+.categoryFormLeft >select{
+  margin-bottom: 10px;
+}
+
+.categoryUploadImg{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.categoryFormRight{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.categoryUpload{
+  display: flex;
+  align-items: center;
+}
+
+.categoryButton{
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: teal;
+  color:white;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.categoryButton:hover{
+  background-color: rgb(0, 72, 72);
+}
+.labelFileSlider{
+  color: white;
+  height: 10vh;
+  width: 200px;
+  margin-top: 10px;
+  background-color:#363636 ;
+  /* margin: auto; */
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "montserrat",sans-serif;
+  cursor: pointer;
+}

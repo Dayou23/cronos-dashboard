@@ -1,0 +1,98 @@
+.sidebar {
+
+  flex: 1;
+  height: calc(100vh - 50px);
+  background-color: rgb(251, 251, 255);
+  position: sticky;
+  top: 0px;
+}
+
+
+
+.sidebarWrapper {
+  padding: 0px 20px 20px 20px;
+  color: #070606;
+}
+
+.sidebarWrapper.active {
+  display: none;
+
+  /* margin: 50px; */
+}
+
+.cancel {
+  display: none;
+}
+
+.cancelIcon:hover {
+  color: red;
+}
+
+.cancel.active {
+  left: 0px;
+
+  /* margin: 50px; */
+}
+
+.sidebarMenu {
+  margin-bottom: 10px;
+}
+
+.sidebarTitle {
+  font-size: 13px;
+  color: rgb(187, 186, 186);
+}
+
+.sidebarList {
+  list-style: none;
+  padding: 5px;
+}
+
+.sidebarListItem {
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+
+}
+
+.sidebarListItem.active,
+.sidebarListItem:hover {
+  background-color: rgb(240, 240, 255);
+}
+
+.sidebarIcon {
+  margin-right: 5px;
+  font-size: 20px !important;
+
+}
+
+.logoutButton {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  background-color: #363636;
+  color: white;
+  cursor: pointer;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 15px !important;
+}
+
+.logoutButton:hover {
+  background-color: #1c1c1c;
+}
+
+@media (max-width:500px) {
+  .cancel {
+    display: grid;
+    justify-items: end;
+    margin: 2px 5px;
+    z-index: 2;
+    cursor: pointer;
+
+
+  }
+}

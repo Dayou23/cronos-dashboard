@@ -1,0 +1,62 @@
+.newSlider {
+  flex: 4;
+}
+
+.addSliderForm {
+  margin-top: 10px;
+}
+
+.addSliderItem {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.addSliderItem > label {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.addSliderItem > input {
+  padding: 10px;
+}
+
+.addSliderItem > select {
+  padding: 10px;
+}
+
+.addSliderButton {
+  margin-top: 10px;
+  padding: 10px 60px;
+  border: none;
+  border-radius: 10px;
+  background-color: teal;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.addSliderButton:hover {
+
+  background-color: rgb(0, 62, 62);
+
+}
+
+input[type="file"]{
+  display: none;
+  }
+.fileSlider{
+    color: wheat;
+    height: 10vh;
+    /* width: 20vw; */
+    background-color:#363636 ;
+    /* margin: auto; */
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "montserrat",sans-serif;
+    cursor: pointer;
+  
+}

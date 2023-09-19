@@ -1,0 +1,56 @@
+.newCategory {
+  flex: 4;
+}
+
+.addCategoryForm {
+  margin-top: 10px;
+}
+
+.addCategoryItem {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.addCategoryItem > label {
+  color: gray;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.addCategoryItem > input {
+  padding: 10px;
+}
+
+.addCategoryItem > select {
+  padding: 10px;
+}
+
+.addCategoryButton {
+  margin-top: 10px;
+  padding: 10px 60px;
+  border: none;
+  border-radius: 10px;
+  background-color: teal;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.addCategoryButton:hover{
+  background-color: rgb(0, 65, 65);
+}
+.labelFileCategory{
+  color: wheat;
+  height: 10vh;
+  /* width: 20vw; */
+  
+  background-color:#363636 ;
+  /* margin: auto; */
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "montserrat",sans-serif;
+  cursor: pointer;
+}
