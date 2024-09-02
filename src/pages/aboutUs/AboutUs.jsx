@@ -21,7 +21,7 @@ export default function AboutUs() {
       try {
         // const res = await axios.get("http://localhost:5000/api/aboutUs");
         const res = await userRequest.get(
-          `https://dark-red-coral-wrap.cyclic.cloud/api/AboutUs`
+          `https://cronos-api-99mk.onrender.com/api/AboutUs`
         );
         setLoading(false);
         setAboutUs(res.data);

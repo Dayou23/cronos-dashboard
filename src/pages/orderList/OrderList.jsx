@@ -76,7 +76,7 @@ export default function OrderList() {
       headerName: "amount",
       width: 130,
       renderCell: (params) => {
-        return <div className="OrderListItem">{params.row.amount} TL</div>;
+        return <div className="OrderListItem">{params.row.amount} </div>;
       },
     },
     {

@@ -6,15 +6,15 @@ import { useDispatch, useSelector } from "react-redux";
 import { useState } from "react";
 
 import CreatableSelect from "react-select/creatable";
-import {
-  getStorage,
-  ref,
-  uploadBytesResumable,
-  getDownloadURL,
-  deleteObject,
-} from "firebase/storage";
+// import {
+//   getStorage,
+//   ref,
+//   uploadBytesResumable,
+//   getDownloadURL,
+//   deleteObject,
+// } from "firebase/storage";
 
-import app from "../../firebase";
+// import app from "../../firebase";
 import { updateProduct } from "../../redux/apiCalls";
 
 import { CircularProgress } from "@material-ui/core";
